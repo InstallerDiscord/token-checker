@@ -88,7 +88,8 @@ function CheckTokens() {
                                         <img src="${avatar}" alt="User Avatar">
                                     </div>
                                     <div class="box">
-                                        <span>${username} ${createdAt}</span>
+                                        <span>${username}</span>
+                                        <span>${createAt}</span>
                                         <p>${token}</p>
                                     </div>
                                 </div>`  
