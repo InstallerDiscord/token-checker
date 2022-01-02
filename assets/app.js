@@ -73,7 +73,6 @@ function CheckTokens() {
                                     </div>
                                 </div>`  
                             } else {
-
                                 var id = xhr2.response.split(`{"id": "`)[1].split(`", "username": "`)[0];
                                 var scd = xhr2.response.split(`", "avatar": "`)[1].split(`", "discriminator`)[0];
                                 var avatar = `https://cdn.discordapp.com/avatars/${id}/${scd}`;
@@ -83,7 +82,7 @@ function CheckTokens() {
                                         <img src="${avatar}" alt="User Avatar">
                                     </div>
                                     <div class="box">
-                                        <span>${username} ${createdAt}</span>
+                                        <span>${username}</span>
                                         <p>${token}</p>
                                     </div>
                                 </div>`  
