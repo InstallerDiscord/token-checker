@@ -101,7 +101,7 @@ function CheckTokens() {
                         <img src="./assets/Default.png" alt="User Avatar">
                     </div>
                     <div class="box">
-                        <span>XXXXX#0000</span>
+                        <span>{Jesus Scripts - Token Invalida}</span>
                         <p>${token}</p>
                     </div>
                 </div>`
